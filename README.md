@@ -48,6 +48,11 @@ cd dashboard
 npm install
 npm run dev
 ```
+<img width="1414" height="491" alt="Screenshot 2026-09-30 at 00 37 46" src="https://github.com/user-attachments/assets/e13927dd-a976-438d-889c-0356653bda9e" />
+
+<img width="1414" height="400" alt="Screenshot 2026-09-30 at 00 37 59" src="https://github.com/user-attachments/assets/2bc17691-a40f-442b-84ef-d5ca5129cf28" />
+
+<img width="1414" height="717" alt="Screenshot 2026-09-30 at 00 38 12" src="https://github.com/user-attachments/assets/86c17aa6-ba44-4102-a3da-1f9c64539df9" />
 
 ## 📄 License
 This project is licensed under the MIT License.
