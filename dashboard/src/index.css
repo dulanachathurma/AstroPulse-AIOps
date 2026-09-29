@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #04060a;
+  background-image:
+    linear-gradient(rgba(0, 255, 156, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 156, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+  color: #b7ffe0;
+  font-family: "JetBrains Mono", "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+body::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.16) 3px
+  );
+  z-index: 50;
+}
+
+::selection {
+  background: #00ff9c;
+  color: #04060a;
+}
+
+@layer components {
+  .panel {
+    @apply border border-neon-green/20 bg-void-panel/85;
+    box-shadow: inset 0 0 40px rgba(0, 255, 156, 0.03);
+  }
+
+  .glow-green {
+    text-shadow: 0 0 12px rgba(0, 255, 156, 0.55);
+  }
+
+  .btn-neon {
+    @apply border border-neon-cyan/40 bg-transparent px-3 py-2 text-left text-xs tracking-wider text-neon-cyan transition-colors;
+  }
+
+  .btn-neon:hover:not(:disabled) {
+    @apply border-neon-pink bg-neon-pink/10 text-neon-pink;
+  }
+
+  .btn-neon:focus-visible {
+    outline: 2px solid #22d3ee;
+    outline-offset: 2px;
+  }
+
+  .btn-neon:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+.terminal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal::-webkit-scrollbar-track {
+  background: #04060a;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 156, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

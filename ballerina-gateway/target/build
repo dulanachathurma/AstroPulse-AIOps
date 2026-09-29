@@ -1,0 +1,59 @@
+{
+  "last_build_time": 1790706325725,
+  "last_update_time": 1790706325725,
+  "last_bal_toml_update_time": 1790704742615,
+  "distribution_version": "2201.13.6",
+  "last_modified_time": {
+    "gateway": 1790704742615
+  },
+  "last_build_options": {
+    "testReport": false,
+    "codeCoverage": false,
+    "skipTests": true,
+    "compilationOptions": {
+      "experimental": false,
+      "observabilityIncluded": false,
+      "cloud": "",
+      "dumpGraph": false,
+      "dumpRawGraphs": false
+    }
+  },
+  "src_meta_info": [
+    {
+      "file": "/Users/dulana/AstroPulse-AIOps/ballerina-gateway/main.bal",
+      "hash": "3b9c5cc0b67db67613a735b8972753dee520aa1d71d23c0b704095175ef383d5",
+      "size": 8232,
+      "lastModifiedTime": 1790704742615
+    },
+    {
+      "file": "/Users/dulana/AstroPulse-AIOps/ballerina-gateway/Ballerina.toml",
+      "hash": "4b94220ab44eefc8abe68f231d673c28ef62fa8631c04db634c2ab5a8e437400",
+      "size": 111,
+      "lastModifiedTime": 1790704742615
+    }
+  ],
+  "target_exec_meta_info": {
+    "file": "/Users/dulana/AstroPulse-AIOps/ballerina-gateway/target/backup/bin/gateway.jar",
+    "hash": "4265b535ed0ec68a7dd6faf82a5ed9bd44d89a6aecd318efdef1d901598fbf5b",
+    "size": 49034913,
+    "lastModifiedTime": 1790706326304
+  },
+  "settings_meta_info": {
+    "file": "/Users/dulana/.ballerina/Settings.toml",
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "lastModifiedTime": 1790706250309
+  },
+  "ballerina_toml_meta_info": {
+    "file": "/Users/dulana/AstroPulse-AIOps/ballerina-gateway/Ballerina.toml",
+    "hash": "4b94220ab44eefc8abe68f231d673c28ef62fa8631c04db634c2ab5a8e437400",
+    "size": 111,
+    "lastModifiedTime": 1790704742615
+  },
+  "imports": [
+    "ballerina/http",
+    "ballerina/log",
+    "ballerina/random",
+    "ballerina/time"
+  ]
+}
